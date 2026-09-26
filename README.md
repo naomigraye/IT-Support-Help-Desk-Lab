@@ -1,44 +1,45 @@
 # IT Support & Help Desk Lab
 
-This repository documents my hands-on IT support practice in a simulated business environment. These projects demonstrate practical experience with Microsoft Entra ID, identity and access management, user administration, troubleshooting, and help desk ticket documentation.
+This repository documents my hands-on IT support practice in a simulated business environment. These projects demonstrate practical experience with Microsoft Entra ID, identity and access management, Windows troubleshooting, networking, browser troubleshooting, and help desk ticket documentation.
 
 ## 🖥️ Lab Environment
 
 - Microsoft Azure
 - Microsoft Entra ID
-- Windows
+- Windows 10
+- Command Prompt
+- Google Chrome
+- Windows Task Manager
 - Simulated Help Desk Tickets
 - Identity & Access Management (IAM)
 
 ## 🎫 Help Desk Projects
 
-### 1. Password Reset & Account Recovery
-Assisted a simulated user experiencing login issues. Reset the user's password in Microsoft Entra ID, provided a temporary password, and verified successful account access.
+### [1. Password Reset & Account Recovery](01-password-reset.md)
+Reset a simulated user's password in Microsoft Entra ID, provided a temporary password, and verified account access.
 
-**Skills:** Password Resets • Account Recovery • Microsoft Entra ID • User Support
+### [2. New User Onboarding](02-new-user-onboarding.md)
+Created a new user account and assigned the user to the appropriate security group.
 
-### 2. New User Onboarding
-Created a new user account and assigned the user to the appropriate Marketing security group to provide department access.
+### [3. Department Transfer](03-department-transfer.md)
+Transferred a simulated user from the Marketing security group to the Sales security group and verified updated access.
 
-**Skills:** User Provisioning • Security Groups • Access Management • Microsoft Entra ID
+### [4. Employee Offboarding](04-employee-offboarding.md)
+Disabled a simulated user's account, removed group access, revoked active sessions, and verified sign-in was blocked.
 
-### 3. Department Transfer
-Processed a simulated department transfer by removing a user from the Marketing security group and adding the user to the Sales security group. Verified the updated group membership.
+### [5. Slow Windows PC Troubleshooting](05-slow-windows-pc-troubleshooting.md)
+Investigated slow computer performance using Windows tools and performed system cleanup and optimization.
 
-**Skills:** Group Management • Access Control • IAM • User Administration
+### [6. Network Connectivity Troubleshooting](06-network-connectivity-troubleshooting.md)
+Used Windows networking commands including `ipconfig`, `ping`, DNS cache flushing, and IP release/renewal to troubleshoot connectivity.
 
-### 4. Employee Offboarding
-Processed a simulated employee offboarding request. Disabled the user's account, removed department group access, revoked active sessions, and verified the account could no longer sign in.
-
-**Skills:** Account Deactivation • Session Revocation • Access Removal • Security • Offboarding
+### [7. Chrome & System Performance Troubleshooting](07-chrome-troubleshooting.md)
+Investigated browser and system performance, cleared Chrome browsing data, reviewed startup applications, and reduced memory usage from approximately 70% to 62%.
 
 ## 🔧 Skills Practiced
 
-Microsoft Entra ID • Identity & Access Management • User Provisioning • Password Resets • Security Groups • Account Management • Employee Onboarding & Offboarding • Help Desk Ticket Documentation
+Microsoft Entra ID • Identity & Access Management • User Provisioning • Password Resets • Security Groups • Account Management • Employee Onboarding & Offboarding • Windows Troubleshooting • Network Troubleshooting • Command Prompt • Browser Troubleshooting • Task Manager • Help Desk Ticket Documentation
 
-## 📚 Upcoming Projects
+## 📌 About This Lab
 
-- Windows Desktop Troubleshooting
-- Network Troubleshooting
-- Software & Application Support
-- Additional Help Desk Ticket Scenarios
+All scenarios in this repository were completed in a simulated lab environment for hands-on IT support practice.
